@@ -304,7 +304,7 @@ body h1 {
   background: #fff;
   font-weight: normal;
   font-family: "AxisStd-ExtraLight";
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
 }
 /* line 80, ../sass/partials/_base.sass */
 body h2,
@@ -356,30 +356,31 @@ body #cta #buttons a {
   background: #333;
   background: #ef8201;
   background: #01a1dd;
+  background: #4285f4;
   color: #fff;
   letter-spacing: 2px;
   text-decoration: none;
   border-radius: 100px;
   font-family: "AxisStd-Regular" !important;
 }
-/* line 129, ../sass/partials/_base.sass */
+/* line 130, ../sass/partials/_base.sass */
 body #cta #share {
   padding: 80px 0;
 }
-/* line 131, ../sass/partials/_base.sass */
+/* line 132, ../sass/partials/_base.sass */
 body #cta h3 {
   font-size: 16px;
 }
-/* line 136, ../sass/partials/_base.sass */
+/* line 137, ../sass/partials/_base.sass */
 body #cta ul a {
   text-decoration: none;
 }
-/* line 138, ../sass/partials/_base.sass */
+/* line 139, ../sass/partials/_base.sass */
 body #cta ul img {
   height: 136px;
   margin-bottom: 6px;
 }
-/* line 141, ../sass/partials/_base.sass */
+/* line 142, ../sass/partials/_base.sass */
 body #cta ul p {
   font-size: 13px;
 }
