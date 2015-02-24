@@ -22,6 +22,7 @@
   <?php endif ?>
   <link rel="stylesheet" href="<?php sitepath('template_url'); ?>/stylesheets/style.css" type="text/css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+  <script type="text/javascript" src="http://fast.fonts.net/jsapi/d11d5c2c-3d5a-4c4e-8b4b-7c002575d3f8.js"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
     <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>

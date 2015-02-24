@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 5, ../sass/partials/util/_mixin.sass */
 .mcfix:before, .m-share:before, .mcfix:after, .m-share:after {
   content: " ";
@@ -201,7 +200,6 @@ i.dummy {
 
 /* line 1, ../sass/partials/_base.sass */
 body {
-  font-family: "Yu Gothic Std-TT R", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: auto;
   color: #444;
@@ -216,7 +214,6 @@ h4,
 h5,
 h6 {
   color: #333;
-  font-family: "Yu Gothic Std-TT B", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: auto;
 }
@@ -226,7 +223,6 @@ h1 {
   font-size: 26px;
   font-size: 1.625rem;
   line-height: 1.8em;
-  font-weight: bold;
 }
 /* line 26, ../sass/partials/_base.sass */
 h1 a {
@@ -292,78 +288,98 @@ body #share {
 /* line 61, ../sass/partials/_base.sass */
 body #cover {
   background-image: url(../images/photo.jpg);
+  background-image: url(../images/test.png);
   background-size: cover;
   min-height: 500px;
   background-position: center center;
 }
-/* line 66, ../sass/partials/_base.sass */
+/* line 67, ../sass/partials/_base.sass */
 body #cover img {
-  width: 160px;
+  width: 120px;
   float: right;
   margin: 40px;
 }
-/* line 70, ../sass/partials/_base.sass */
-body #cover h1 {
+/* line 71, ../sass/partials/_base.sass */
+body h1 {
   background: #fff;
-  display: inline;
+  font-weight: normal;
+  font-family: "AxisStd-ExtraLight";
+  margin-bottom: 1em;
 }
-/* line 73, ../sass/partials/_base.sass */
+/* line 80, ../sass/partials/_base.sass */
+body h2,
+body h3 {
+  font-family: "AxisStd-Heavy" !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+/* line 86, ../sass/partials/_base.sass */
+body li,
+body p {
+  font-family: "AxisStd-ExtraLight" !important;
+  line-height: 2.4 !important;
+}
+/* line 95, ../sass/partials/_base.sass */
 body .wp-content {
   margin: 40px 0;
 }
-/* line 75, ../sass/partials/_base.sass */
+/* line 97, ../sass/partials/_base.sass */
 body #cta {
   padding: 80px 0;
-  background: #f3f3f3;
   text-align: center;
 }
-/* line 79, ../sass/partials/_base.sass */
+/* line 102, ../sass/partials/_base.sass */
 body #cta #logo {
   text-align: center;
   color: #999;
   font-size: 9px;
   padding: 80px 0;
 }
-/* line 84, ../sass/partials/_base.sass */
+/* line 107, ../sass/partials/_base.sass */
 body #cta #logo img {
   width: 100px;
   margin-bottom: 20px;
 }
-/* line 87, ../sass/partials/_base.sass */
-body #cta h2 {
-  font-size: 24px;
-  font-weight: bold;
-}
-/* line 91, ../sass/partials/_base.sass */
-body #cta #buttons {
-  padding-bottom: 80px;
-}
-/* line 93, ../sass/partials/_base.sass */
-body #cta #buttons a {
-  display: inline-block;
-  padding: 20px;
-  background: #333;
-  background: #ef8201;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 100px;
-}
-/* line 102, ../sass/partials/_base.sass */
-body #cta #share {
-  padding: 80px 0;
-}
-/* line 104, ../sass/partials/_base.sass */
+/* line 110, ../sass/partials/_base.sass */
 body #cta h3 {
   font-size: 16px;
   font-weight: bold;
 }
-/* line 108, ../sass/partials/_base.sass */
+/* line 115, ../sass/partials/_base.sass */
+body #cta #buttons {
+  padding-bottom: 80px;
+}
+/* line 117, ../sass/partials/_base.sass */
+body #cta #buttons a {
+  display: inline-block;
+  padding: 20px 40px;
+  background: #333;
+  background: #ef8201;
+  background: #01a1dd;
+  color: #fff;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border-radius: 100px;
+  font-family: "AxisStd-Regular" !important;
+}
+/* line 129, ../sass/partials/_base.sass */
+body #cta #share {
+  padding: 80px 0;
+}
+/* line 131, ../sass/partials/_base.sass */
+body #cta h3 {
+  font-size: 16px;
+}
+/* line 136, ../sass/partials/_base.sass */
+body #cta ul a {
+  text-decoration: none;
+}
+/* line 138, ../sass/partials/_base.sass */
 body #cta ul img {
   height: 136px;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
-/* line 111, ../sass/partials/_base.sass */
+/* line 141, ../sass/partials/_base.sass */
 body #cta ul p {
   font-size: 13px;
 }
@@ -410,295 +426,6 @@ body #cta ul p {
 /* line 8, ../sass/partials/content/_header.sass */
 #header .header-content .header-title a {
   display: block;
-}
-
-/* line 1, ../sass/partials/content/_main.sass */
-#main {
-  overflow: hidden;
-}
-/* line 4, ../sass/partials/content/_main.sass */
-#main .wp-content h2 {
-  font-size: 18px;
-  font-size: 1.125rem;
-  margin: 64px 0 18px 0;
-  margin: 4rem 0 1.125rem 0;
-  line-height: 1;
-}
-/* line 8, ../sass/partials/content/_main.sass */
-#main .wp-content a {
-  border-bottom: 1px solid #111;
-  padding-bottom: 2px;
-  text-decoration: none;
-}
-/* line 12, ../sass/partials/content/_main.sass */
-#main .wp-content p {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 32px;
-  line-height: 2rem;
-  margin: 0 0 16px 0;
-  margin: 0 0 1rem 0;
-}
-/* line 16, ../sass/partials/content/_main.sass */
-#main .wp-content p:last-child {
-  margin-bottom: 0;
-}
-/* line 18, ../sass/partials/content/_main.sass */
-#main .wp-content ul {
-  margin: 16px 0 16px 24px;
-  margin: 1rem 0 1rem 1.5rem;
-  list-style: disc;
-  padding: 0;
-}
-/* line 22, ../sass/partials/content/_main.sass */
-#main .wp-content ul li {
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 24px;
-  line-height: 1.5rem;
-  margin-bottom: 12px;
-  margin-bottom: 0.75rem;
-}
-/* line 26, ../sass/partials/content/_main.sass */
-#main .wp-content ul + p {
-  margin-top: 32px;
-  margin-top: 2rem;
-}
-/* line 28, ../sass/partials/content/_main.sass */
-#main .wp-content div {
-  max-width: 100%;
-}
-/* line 30, ../sass/partials/content/_main.sass */
-#main .wp-content p img {
-  opacity: 0;
-  display: block;
-  padding: 16px 0;
-  padding: 1rem 0;
-}
-/* line 34, ../sass/partials/content/_main.sass */
-#main .wp-content p > img,
-#main .wp-content .fluidbox {
-  position: relative;
-  display: block;
-  max-width: none;
-  left: -12.5%;
-  width: 125%;
-  border-bottom: none;
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 34, ../sass/partials/content/_main.sass */
-  #main .wp-content p > img,
-  #main .wp-content .fluidbox {
-    left: -25%;
-    width: 150%;
-  }
-}
-/* line 46, ../sass/partials/content/_main.sass */
-#main .wp-content strong {
-  color: #333;
-}
-/* line 48, ../sass/partials/content/_main.sass */
-#main .wp-content em {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZWZlMzIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWZlMzIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(0%, #fefe32), color-stop(100%, #fefe32));
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0%, #fefe32 0%, #fefe32);
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0%, #fefe32 0%, #fefe32);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 0%, #fefe32 0%, #fefe32);
-  font-style: normal;
-}
-/* line 53, ../sass/partials/content/_main.sass */
-#main .wp-content blockquote {
-  margin: 32px 0;
-  margin: 2rem 0;
-  position: relative;
-  border-left: none;
-  font-style: normal;
-  color: #111;
-  background: #ececec;
-  padding: 16px 32px 16px 48px;
-  padding: 1rem 2rem 1rem 3rem;
-}
-/* line 61, ../sass/partials/content/_main.sass */
-#main .wp-content blockquote p {
-  color: #666;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 24px;
-  line-height: 1.5rem;
-  margin: 0 0 14px 0;
-  margin: 0 0 0.875rem 0;
-}
-/* line 66, ../sass/partials/content/_main.sass */
-#main .wp-content blockquote p * {
-  color: #666;
-  border-color: #666;
-}
-/* line 69, ../sass/partials/content/_main.sass */
-#main .wp-content blockquote:before {
-  content: "“";
-  position: absolute;
-  font-family: Serif;
-  font-weight: normal;
-  color: #999;
-  font-size: 48px;
-  font-size: 3rem;
-  left: 16px;
-  left: 1rem;
-  top: 0;
-  top: 0;
-}
-@media only screen and (min-width: 40.063em) {
-  /* line 53, ../sass/partials/content/_main.sass */
-  #main .wp-content blockquote {
-    margin: 32px 0;
-    margin: 2rem 0;
-    padding: 16px 32px 16px 48px;
-    padding: 1rem 2rem 1rem 3rem;
-  }
-  /* line 81, ../sass/partials/content/_main.sass */
-  #main .wp-content blockquote:before {
-    font-size: 48px;
-    font-size: 3rem;
-    left: 16px;
-    left: 1rem;
-    top: 0;
-    top: 0;
-  }
-}
-/* line 86, ../sass/partials/content/_main.sass */
-#main .wp-content .fluidbox-ghost:before {
-  width: 44px;
-  height: 44px;
-  background: url('data:image/svg+xml;utf8, <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#222"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle></g></svg>');
-  background-size: 44px 44px;
-  margin: 0 auto;
-  padding: 0;
-  border-radius: 100%;
-}
-/* line 88, ../sass/partials/content/_main.sass */
-#main .wp-content .wp-caption {
-  position: relative;
-}
-/* line 90, ../sass/partials/content/_main.sass */
-#main .wp-content .wp-caption > a {
-  display: block;
-}
-/* line 92, ../sass/partials/content/_main.sass */
-#main .wp-content .wp-caption .wp-caption-text {
-  margin-top: 10px;
-  font-size: 10px;
-  font-size: 0.625rem;
-  color: #999;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 88, ../sass/partials/content/_main.sass */
-  #main .wp-content .wp-caption {
-    margin-bottom: 20px;
-  }
-  /* line 98, ../sass/partials/content/_main.sass */
-  #main .wp-content .wp-caption .wp-caption-text {
-    bottom: 0;
-    right: -39.58333%;
-    width: 25%;
-    margin: 0;
-    position: absolute;
-    text-align: left;
-  }
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 106, ../sass/partials/content/_main.sass */
-  #main .wp-content .wp-caption .wp-caption-text {
-    right: -52.08333%;
-  }
-}
-/* line 109, ../sass/partials/content/_main.sass */
-#main .article {
-  padding-top: 96px;
-  padding-top: 6rem;
-  padding-bottom: 64px;
-  padding-bottom: 4rem;
-  padding-left: 4.16667%;
-  padding-right: 4.16667%;
-  display: none;
-  border-top: 1px solid #ececec;
-}
-/* line 116, ../sass/partials/content/_main.sass */
-#main .article > .row {
-  margin-bottom: 400px;
-}
-/* line 120, ../sass/partials/content/_main.sass */
-#main .article.is-loaded > .row, body.single #main .article > .row {
-  margin-bottom: 0px;
-}
-@media only screen and (min-width: 64.063em) {
-  /* line 109, ../sass/partials/content/_main.sass */
-  #main .article {
-    padding-top: 128px;
-    padding-top: 8rem;
-    padding-bottom: 64px;
-    padding-bottom: 4rem;
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-/* line 127, ../sass/partials/content/_main.sass */
-#main .article:after {
-  width: 44px;
-  height: 44px;
-  background: url('data:image/svg+xml;utf8, <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#999"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle></g></svg>');
-  background-size: 44px 44px;
-  margin: 0 auto;
-  padding: 0;
-  border-radius: 100%;
-  content: "";
-  display: block;
-  visibility: hidden;
-}
-/* line 133, ../sass/partials/content/_main.sass */
-#main .article.is-active {
-  display: block;
-}
-/* line 136, ../sass/partials/content/_main.sass */
-#main .article.is-loading:after {
-  visibility: visible;
-}
-/* line 138, ../sass/partials/content/_main.sass */
-#main .article:nth-child(2n) {
-  background: #fff;
-}
-/* line 140, ../sass/partials/content/_main.sass */
-#main .article:first-child {
-  border-top: none;
-}
-/* line 143, ../sass/partials/content/_main.sass */
-#main .article .entry-header h1 {
-  font-size: 32px;
-  font-size: 2rem;
-  line-height: 48px;
-  line-height: 3rem;
-  margin: 16px 0 24px 0;
-  margin: 1rem 0 1.5rem 0;
-}
-/* line 147, ../sass/partials/content/_main.sass */
-#main .article .entry-header p {
-  margin: 0;
-  line-height: 1;
-}
-/* line 150, ../sass/partials/content/_main.sass */
-#main .article .entry-header p.entry-category {
-  font-size: 14px;
-  font-size: 0.875rem;
-}
-/* line 152, ../sass/partials/content/_main.sass */
-#main .article .entry-header p.entry-meta {
-  font-size: 12px;
-  font-size: 0.75rem;
-}
-/* line 154, ../sass/partials/content/_main.sass */
-#main .article .entry-content {
-  margin: 64px 0;
-  margin: 4rem 0;
 }
 
 /* line 2, ../sass/partials/content/_footer.sass */

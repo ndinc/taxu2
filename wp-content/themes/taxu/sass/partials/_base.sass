@@ -1,5 +1,5 @@
 body
-  font-family: 'Yu Gothic Std-TT R', sans-serif
+  //font-family: 'Yu Gothic Std-TT R', sans-serif
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   text-rendering: auto
@@ -14,7 +14,7 @@ h4,
 h5,
 h6
   color: #333
-  font-family: 'Yu Gothic Std-TT B', sans-serif
+  //font-family: 'Yu Gothic Std-TT B', sans-serif
   -moz-osx-font-smoothing: grayscale
   -webkit-font-smoothing: antialiased
   text-rendering: auto
@@ -22,7 +22,7 @@ h6
 h1
   +rem(font-size, 26px)
   line-height: 1.8em
-  font-weight: bold
+  // font-weight: bold
   a
     +link-colors(#333, #444)
     text-decoration: none
@@ -60,22 +60,45 @@ body
     text-align: center
   #cover
     background-image: url(../images/photo.jpg)
+    background-image: url(../images/test.png)
     background-size: cover
     min-height: 500px
     background-position: center center
     img
-      width: 160px
+      width: 120px
       float: right
       margin: 40px
-    h1
-      background: #fff
-      display: inline
+  h1
+    background: #fff
+    // font-family: 'AxisLatinPro-ExtraLight' !important
+    font-weight: normal
+    // font-family:'AxisLatinPro-ExtraLight';
+    // font-family:'AxisLatinPro-Regular';
+    // font-family:'AxisLatinPro-Bold';
+    font-family: 'AxisStd-ExtraLight'
+    margin-bottom: 1em !important
+  h2,
+  h3
+    font-family: 'AxisStd-Heavy' !important
+    font-weight: normal
+    letter-spacing: 2px
+
+  li,
+  p
+    // font-family: 'AxisLatinPro-Regular' !important
+    // font-family: 'AxisStd-Regular' !important
+    font-family: 'AxisStd-ExtraLight' !important
+    line-height: 2.4 !important
+
+  h2
+    // color: #ef8201
   .wp-content
     margin: 40px 0
   #cta
     padding: 80px 0
-    background: #f3f3f3
+    // background: #f3f3f3
     text-align: center
+
     #logo
       text-align: center
       color: #999
@@ -84,30 +107,37 @@ body
       img
         width: 100px
         margin-bottom: 20px
-    h2
-      font-size: 24px
+    h3
+      font-size: 16px
       font-weight: bold
-    p
+      // font-family: 'AxisLatinPro-Bold' !important
+
     #buttons
       padding-bottom: 80px
       a
         display: inline-block
-        padding: 20px
+        padding: 20px 40px
         background: #333
         background: #ef8201
+        background: #01a1dd
         color: #fff
-        font-weight: bold
+        // font-weight: bold
+        letter-spacing: 2px
         text-decoration: none
         border-radius: 100px
+        font-family: 'AxisStd-Regular' !important
     #share
       padding: 80px 0
     h3
       font-size: 16px
-      font-weight: bold
+      // font-weight: bold
+      // font-family: 'AxisLatinPro-Bold'
     ul
+      a
+        text-decoration: none
       img
         height: 136px
-        margin-bottom: 12px
+        margin-bottom: 6px
       p
         font-size: 13px
 
