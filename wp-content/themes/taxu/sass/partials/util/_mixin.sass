@@ -1,0 +1,205 @@
+// ---------------------------------------------------------------
+// clearfix
+// ---------------------------------------------------------------
+%mcfix
+  &:before,
+  &:after
+    content: " "
+    display: table
+  &:after
+    clear: both
+  @if $support-ie7 == true
+    &
+      *zoom: 1
+
+@mixin mcfix
+  @extend %mcfix
+
+// ---------------------------------------------------------------
+// layout
+// ---------------------------------------------------------------
+
+@mixin gradient($start, $end)
+  background: $start
+  background: -webkit-gradient(linear, left top, left bottom, from($start), to($end))
+  background: -moz-linear-gradient(top, $start, $end)
+  background: -o-linear-gradient($start, $end)
+  background: linear-gradient($start, $end)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$start}', endColorstr='#{$end}')
+  zoom: 1
+
+@mixin float-list($mcfix: false)
+  @if $mcfix == true
+    +mcfix
+  @else
+    +clearfix
+  list-style-type: none
+  margin: 0
+  padding: 0
+  > li,
+  > a,
+  > span,
+  > img
+    margin: 0
+    padding: 0
+    display: block
+    float: left
+    border: none
+
+@mixin float_thumb_text($width: 60px, $margin: 10px)
+  +mcfix
+  .thumb,
+  .text
+    display: block
+  .thumb
+    float: left
+    width: $width
+  .text
+    margin-left:  $width + $margin
+
+@mixin grid-gutter($gutter: $column-gutter, $is-row: true)
+  @if $is-row == true
+    .row
+      margin: 0 (-1 * $gutter)
+      .columns
+        padding: 0 $gutter
+  @else
+    margin: 0 (-1 * $gutter)
+    .columns
+      padding: 0 $gutter
+
+@mixin block-gutter($gutter: $column-gutter)
+  margin: 0 (-1 * $gutter)
+  > li
+    padding: 0 $gutter
+
+// ---------------------------------------------------------------
+// absolute
+// ---------------------------------------------------------------
+%full
+  display: block
+  width: 100%
+  height: 100%
+
+%pos-zero
+  top: 0
+  left: 0
+
+%pos-half
+  top: 50%
+  left: 50%
+
+=abs-full
+  @extend %full
+  @extend %pos-zero
+  position: absolute
+
+=abs-center($width, $height, $css3: false)
+  position: absolute
+  @extend %pos-half
+  width: $width
+  height: $height
+  @if $css3 == true and $support-ie8 == false
+    +translate(-50%, -50%)
+  @else
+    margin-top: -1 * $height / 2
+    margin-left: -1 * $width / 2
+
+// ---------------------------------------------------------------
+// background
+// ---------------------------------------------------------------
+=background-image-size($path, $ratina: $support-retina)
+  display: block
+  background: url($path) center no-repeat
+  $width: image-width($path)
+  $height: image-height($path)
+  @if $ratina == true
+    width: round($width / 2)
+    height: round($height / 2)
+    background-size: cover
+  @else
+    width: $width
+    height: $height
+
+// ---------------------------------------------------------------
+// visible
+// ---------------------------------------------------------------
+%is-visible
+  visibility: visible
+  +opacity(1)
+
+%is-hidden
+  visibility: hidden
+  +opacity(0)
+
+@mixin is-visible
+  @extend %is-visible
+
+@mixin is-hidden
+  @extend %is-hidden
+
+// ---------------------------------------------------------------
+// font-size
+// ---------------------------------------------------------------
+
+@mixin rem($property, $values)
+  $font-size: $rem-base // libs/foundation/foundation/_settings.scss
+  $px-values: ()
+  $rem-values: ()
+  @each $value in $values
+    @if $value == 0 or $value == 0px
+      $px-values: join($px-values, 0)
+      $rem-values: join($rem-values, 0)
+    @else if type-of($value) == number and not unitless($value) and (unit($value) == px)
+      $new-rem-value: $value / $font-size
+      $px-values: join($px-values, round($value))
+      $rem-values: join($rem-values, #{$new-rem-value}rem)
+    @else if type-of($value) == number and not unitless($value) and (unit($value) == "%")
+      $px-values: join($px-values, #{$value})
+      $rem-values: join($rem-values, #{$value})
+    @else if $value == auto
+      $px-values: join($px-values, auto)
+      $rem-values: join($rem-values, auto)
+    @else
+      $px-values: join($px-values, round($value * $font-size))
+      $rem-values: join($rem-values, #{$value}rem)
+  #{$property}: $px-values
+  #{$property}: $rem-values
+
+// @include rem(font-size, 14px)
+// @include rem(margin, 0 auto 1)
+// @include rem(padding-bottom, 3%)
+
+@mixin svg-loader($color)
+  background: url('data:image/svg+xml;utf8, <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#{$color}"><g fill="none" fill-rule="evenodd" stroke-width="2"><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle><circle cx="22" cy="22" r="1"><animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite" /><animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite" /></circle></g></svg>')
+
+
+@mixin loader($color: #222)
+  width: 44px
+  height: 44px
+  +svg-loader($color)
+  // background: url(../svg/svg-loaders/puff.svg)
+  background-size: 44px 44px
+  margin: 0 auto
+  padding: 0
+  border-radius: 100%
+  // background-color: $bg-color
+  // -webkit-animation: scaleout 1.0s infinite ease-in-out
+  // animation: scaleout 1.0s infinite ease-in-out
+
+
+@-webkit-keyframes scaleout
+  0%
+    -webkit-transform: scale(0.0)
+  100%
+    -webkit-transform: scale(1.0)
+    opacity: 0
+
+@keyframes scaleout
+  0%
+    transform: scale(0.0)
+    -webkit-transform: scale(0.0)
+  100%
+    transform: scale(1.0)
+    -webkit-transform: scale(1.0)
+    opacity: 0

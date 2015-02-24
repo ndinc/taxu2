@@ -1,0 +1,671 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"edgeprogram.sublime-workspace"
+			],
+			[
+				"sty",
+				"styleguide/"
+			],
+			[
+				"styl",
+				"stylesheets/"
+			],
+			[
+				"subli",
+				"oronine-2.sublime-project"
+			],
+			[
+				"vi",
+				"videos/"
+			],
+			[
+				"v",
+				"video.html"
+			],
+			[
+				"im",
+				"images/"
+			],
+			[
+				"Pro",
+				"Package Control.last-run"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instaa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 550.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_home.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_base.footer.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_about.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/single/program.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/footer.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/functions/wp_theme.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/includes/program.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/style.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_base.en.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_university.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_event.competition2015.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_program.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_base.header.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/header.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_main.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_base.grid.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/program_detail.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/edgeprogram.sublime-project",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_event.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/about.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/events.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/index.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/page-template/taxonomy.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/functions/wp_hook.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/package.json",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/libs/foundation/foundation/_settings.scss",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/programs.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/functions/static_function.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/content/_report.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/reports.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/competition2015.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/data/meta.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/single/report.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/pages/u-tokyo.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/includes/social_script.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/functions/common_function.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/module/_general.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/_settings.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/GreenzPeople/Site/greenzpeople/public/greenzpeople.sublime-project",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/sass/partials/util/_mixin.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Office/About/presentation/dotfes2014_webfont/images/jquery.kerning.js-master/data/kerningdata-template.json",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/includes/report.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/config.rb",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/EdgeProgram/Site/edgeprogram/wp/wp-content/themes/edgeprogram/data/data.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/m/ohn/sass/partials/_base.ohn.aside.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn/cm_player_cn.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn/lang_cn/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/m/ohn/js/function.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/m/ohn/sass/partials/_base.mobile.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/m/ohn/lang_en/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/m/ohn/lang_hk/index.html",
+		"/Users/nkhrhr/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn/cm_player.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/oronine-2.sublime-project",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/AkaedaTsuneo/Site/akaedatsuneo.sublime-project",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/cm_player.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/js/cm_player.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/js/function.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/cm_player_hk.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/lang_hk/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/lang_cn/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/sass/partials/_legacy.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/compass_app_log.txt",
+		"/Users/nkhrhr/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn.sublime-project",
+		"/Users/nkhrhr/Desktop/Site/cm_player.html",
+		"/Users/nkhrhr/Desktop/Site/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/sass/partials/_mobile.sass",
+		"/Users/nkhrhr/Desktop/Site/oronain_eki.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/js/function.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/lang_hk/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/lang_cn/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/config.rb",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/js/cm_player.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/cm_player.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronain_eki.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/ohn.sublime-workspace",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/sass/partials/_mobile.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/compass_app_log.txt",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/js/cm_player copy.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/OhisamaKitchen/Site/ohisama/data.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/config.rb",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/javascripts/script.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/sass/partials/_icon.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/index.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site_v2.0/poster.php",
+		"/Users/nkhrhr/Desktop/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Toboggan/Site/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Toboggan/Site/sass/partials/_icon.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Toboggan/Site/javascripts/script.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Toboggan/Site/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/dogsociety.sublime-project",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/javascripts/function.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/sass/partials/_icon.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/javascripts/script.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/javascripts/libs/jquery.neosmart.fb.wall.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/index.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/sass/partials/_base.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/.htaccess",
+		"/Users/nkhrhr/Desktop/sample.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/htaccess.php",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/sass/partials/_setting.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/sass/style.sass",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/images/_fb.png",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/video.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/.sass-cache/7362d3b9911f07f976c25a80d3c03bf0475ee8d8/_general.scssc",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/.sass-cache/eca7c03073c6e186def15c381a64acfe7bbfedea/_border-radius.scssc",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/.sass-cache/310abf79aa75573db1dbafd18f4bccf79cedc3b5/_base.sassc",
+		"/Users/nkhrhr/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/nkhrhr/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/config.rb",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/images/h-logo.png",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/DogSociety/Site/compass_app_log.txt",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/javascripts/script.js",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/config.rb",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/images/index.html",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/compass_app_log.txt",
+		"/Users/nkhrhr/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Tasukeai/Site/tasukeai_player/.sass-cache/7893b81532cef2b53c7f678da16b60af5b221fa1/_float.scssc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Oronain/Site/oronine-2/ohn/lang_hk",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"+rem(\"letter-spacing\", ",
+			"typography-base",
+			"typography-list",
+			"typography-base",
+			"typography-subsubtitle",
+			"typography-title",
+			"typography-subtitle",
+			"typography-title",
+			"typography-base",
+			"font-family-title",
+			"<p class=\"closed\">終了</p>",
+			"終了",
+			"lo",
+			"_program_photo.png",
+			"section_head",
+			"universities_nav",
+			"開講大学一覧",
+			".quota",
+			"Report List",
+			"Program List",
+			"og:url",
+			"bg_cover.png",
+			"素地の醸成をを目指します",
+			"typography-subtitle",
+			"universities_nav",
+			".label",
+			"#detail",
+			"#3cc",
+			"font-family-title",
+			"custom_class",
+			"body_class",
+			"font-family-base",
+			"relevant_sites",
+			"font-family-title",
+			".section_header",
+			"ation community, where people who desire to learn ",
+			"\"letter-spacing\"",
+			"          &.ja\n            +rem(\"letter-spacing\", 2px)\n          &.en\n",
+			"letter-spacing",
+			"letter",
+			".jp",
+			"<?php if((is_lang('jp'))): ?>",
+			"<?php if((is_lang('ja'))): ?>",
+			"get_field('name_en'",
+			"EDGE Program",
+			"List of participating universities",
+			"List of Reports",
+			"List of programs",
+			"<?php endif ?>",
+			"Report List",
+			"Program List",
+			"詳しくはこちら",
+			"Learn more",
+			"詳しくはこちら",
+			"Learn more",
+			"詳しくはこちら",
+			"<?php endif ?>",
+			"<?php }",
+			"<?php }; ?>",
+			"acf-field-",
+			".quota",
+			"?locale=",
+			".facebook",
+			"Google search",
+			"get_sns_html",
+			"share_btns",
+			"m-share",
+			"#share",
+			"運営母体",
+			"m-share",
+			".m-share",
+			".status",
+			"★クローズ",
+			"centering-li",
+			"border-top",
+			"border",
+			"edge-info",
+			".lable",
+			"lable",
+			".lable",
+			"!important",
+			"THIS WEEK",
+			"THIS W",
+			"+font-family-title",
+			"ont-family-title",
+			"bannerbannerbannerbannerbannerbannerbanner",
+			"p>日時： 2014年10月4日（土）10:00～12:30<br /><br />",
+			".padder",
+			"col_600px",
+			"#cover",
+			"#facebook_likebox",
+			"facebook_likebox",
+			".bagxbook",
+			"col_485",
+			"sche\nsche",
+			"profile",
+			"cm",
+			"#tv-cm",
+			"#cm",
+			"fancybox-close",
+			"cm",
+			"opacity: .4",
+			"#cm",
+			"opacity: .4",
+			"#shiri100",
+			"links-banner",
+			"#links-banner",
+			"#aside",
+			"margin",
+			"fancyYouTube_en",
+			"fancy-youtube_en",
+			"#tv-cm",
+			"id=\"tv-cm\"",
+			"<div id=\"tv-cm\">",
+			"shiri100-mobile-site",
+			"100 Japanese things ",
+			"shiri100",
+			"youtub",
+			"cm",
+			"play",
+			"menu_visible_count",
+			"fancyYouTube",
+			"fancy-youtube",
+			".fancy-youtube",
+			"#tv-cm",
+			"tv-cm",
+			"<div id=\"tv-cm\">",
+			"tv-cm"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<p class=\"closed\">募集終了</p>",
+			"bg_edge.jpg",
+			"<?php if((is_lang('ja'))): ?>",
+			"<?php if((is_lang('jp'))): ?>",
+			"EDGE program",
+			"Programs",
+			"<?php endif; ?>",
+			"THIS<br />WEEK",
+			"p>日時： 2014年10月4日（土）10:00～12:30<br />",
+			"",
+			"<link rel='apple-touch-icon-precomposed'",
+			"' />\";",
+			"\"<link rel='apple-touch-icon' href='",
+			"<link rel=\"apple-touch-icon\" href=\"",
+			"地域",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"about",
+				"pages/about.php"
+			],
+			[
+				"inde",
+				"pages/index.php"
+			],
+			[
+				"hea",
+				"sass/partials/_base.header.sass"
+			],
+			[
+				"home",
+				"sass/partials/content/_home.sass"
+			],
+			[
+				"foot",
+				"sass/partials/_base.footer.sass"
+			],
+			[
+				"abou",
+				"sass/partials/content/_about.sass"
+			],
+			[
+				"pro",
+				"single/program.php"
+			],
+			[
+				"gr",
+				"sass/partials/_base.grid.sass"
+			],
+			[
+				"he",
+				"sass/partials/_base.header.sass"
+			],
+			[
+				"head",
+				"header.php"
+			],
+			[
+				"prog",
+				"sass/partials/content/_program.sass"
+			],
+			[
+				"tax",
+				"page-template/taxonomy.php"
+			],
+			[
+				"in",
+				"pages/index.php"
+			],
+			[
+				"uni",
+				"sass/partials/content/_university.sass"
+			],
+			[
+				"eve",
+				"sass/partials/content/_event.sass"
+			],
+			[
+				"ho",
+				"functions/wp_hook.php"
+			],
+			[
+				"programs",
+				"sass/partials/content/_program.sass"
+			],
+			[
+				"univ",
+				"sass/partials/content/_university.sass"
+			],
+			[
+				"ead",
+				"header.php"
+			],
+			[
+				"progra",
+				"pages/programs.php"
+			],
+			[
+				"base",
+				"sass/partials/_base.sass"
+			],
+			[
+				"abo",
+				"pages/about.php"
+			],
+			[
+				"",
+				"pages/reports.php"
+			],
+			[
+				"repo",
+				"single/report.php"
+			],
+			[
+				"repor",
+				"pages/reports.php"
+			],
+			[
+				"ev",
+				"pages/events.php"
+			],
+			[
+				"foo",
+				"sass/partials/_base.footer.sass"
+			],
+			[
+				"abp",
+				"pages/about.php"
+			],
+			[
+				"set",
+				"sass/partials/_settings.sass"
+			],
+			[
+				"sty",
+				"sass/style.sass"
+			],
+			[
+				"report",
+				"single/report.php"
+			],
+			[
+				"soci",
+				"includes/social_script.php"
+			],
+			[
+				"mi",
+				"sass/partials/util/_mixin.sass"
+			],
+			[
+				"u-to",
+				"pages/u-tokyo.php"
+			],
+			[
+				"main",
+				"sass/partials/content/_main.sass"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"re",
+				"includes/report.php"
+			],
+			[
+				"de",
+				"pages/program_detail.php"
+			],
+			[
+				"grid",
+				"sass/partials/_base.grid.sass"
+			],
+			[
+				"prpg",
+				"sass/partials/content/_program.sass"
+			],
+			[
+				"ba",
+				"sass/partials/_base.sass"
+			],
+			[
+				"data",
+				"ohisama/data.php"
+			],
+			[
+				"scri",
+				"javascripts/script.js"
+			],
+			[
+				"icon",
+				"sass/partials/_icon.sass"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"vide",
+				"video.html"
+			],
+			[
+				"scr",
+				"javascripts/script.js"
+			],
+			[
+				"javas",
+				"javascripts/script.js"
+			],
+			[
+				"f",
+				".sass-cache/7893b81532cef2b53c7f678da16b60af5b221fa1/_float.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": false
+}

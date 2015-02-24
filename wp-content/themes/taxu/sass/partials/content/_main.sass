@@ -1,0 +1,155 @@
+#main
+  overflow: hidden
+  .wp-content
+    h2
+      +rem("font-size", 18px)
+      +rem("margin", 64px 0 18px 0)
+      line-height: 1.0
+    a
+      border-bottom: 1px solid #111
+      padding-bottom: 2px
+      text-decoration: none
+    p
+      +rem("font-size", 16px)
+      +rem("line-height", 32px)
+      +rem("margin", 0 0 16px 0)
+      &:last-child
+        margin-bottom: 0
+    ul
+      +rem("margin", 16px 0 16px 24px)
+      list-style: disc
+      padding: 0
+      li
+        +rem("font-size", 16px)
+        +rem("line-height", 16px * 1.5)
+        +rem("margin-bottom", 12px)
+    ul+p
+      +rem("margin-top", 32px)
+    div
+      max-width: 100%
+    p img
+      opacity: 0
+      display: block
+      +rem("padding", 16px 0)
+    p > img,
+    .fluidbox
+      position: relative
+      display: block
+      max-width: none
+      left: -1 * 100% * (1 / 8)
+      width: 100% * (10 / 8)
+      border-bottom: none
+      // padding-bottom: 0
+      +respond-to("xlarge-up")
+        left: -1 * 100% * (2 / 8)
+        width: 100% * (12 / 8)
+    strong
+      color: #333
+    em
+      $marker_color: rgba(#ffff66, .5)
+      $marker_color: #fefe32
+      +background-image(linear-gradient(top, transparent, transparent 0%, $marker_color 0%, $marker_color))
+      font-style: normal
+    blockquote
+      +rem("margin", 32px 0)
+      position: relative
+      border-left: none
+      font-style: normal
+      color: #111
+      background: #ececec
+      +rem("padding", 16px 32px 16px 48px)
+      p
+        color: #666
+        +rem("font-size", 14px)
+        +rem("line-height", 24px)
+        +rem("margin", 0 0 14px 0)
+        *
+          color: #666
+          border-color: #666
+      &:before
+        content: '\“'
+        position: absolute
+        font-family: Serif
+        font-weight: normal
+        color: #999
+        +rem("font-size", 48px)
+        +rem("left", 16px)
+        +rem("top", 0px)
+      +respond-to("medium-up")
+        +rem("margin", 32px 0)
+        +rem("padding", 16px 32px 16px 48px)
+        &:before
+          +rem("font-size", 48px)
+          +rem("left", 16px)
+          +rem("top", 0)
+    .fluidbox-ghost
+      &:before
+        +loader
+    .wp-caption
+      position: relative
+      > a
+        display: block
+      .wp-caption-text
+        margin-top: 10px
+        +rem(font-size, 10px)
+        color: #999
+      +respond-to("large-up")
+        margin-bottom: 20px
+        .wp-caption-text
+          bottom: 0
+          right: -1 * 100% * (3 / 8 + 20px / 960px)
+          width: 1 * 100% * (2 / 8)
+          margin: 0
+          position: absolute
+          text-align: left
+      +respond-to("xlarge-up")
+        .wp-caption-text
+          right: -1 * 100% * (4 / 8 + 20px / 960px)
+
+  .article
+    +rem("padding-top", 64px + 32px)
+    +rem("padding-bottom", 64px)
+    padding-left: 100% * (1 / 24)
+    padding-right: 100% * (1 / 24)
+    display: none
+    border-top: 1px solid #ececec
+    > .row
+      margin-bottom: 400px
+    &.is-loaded,
+    body.single &
+      > .row
+        margin-bottom: 0px
+    +respond-to("large-up")
+      +rem("padding-top", 128px)
+      +rem("padding-bottom", 64px)
+      padding-left: 0
+      padding-right: 0
+    &:after
+      +loader(#999)
+      content: ''
+      display: block
+      visibility: hidden
+      // +rem("height", 64px)
+    &.is-active
+      display: block
+    &.is-loading
+      &:after
+        visibility: visible
+    &:nth-child(2n)
+      background: #fff
+    &:first-child
+      border-top: none
+    .entry-header
+      h1
+        +rem("font-size", 32px)
+        +rem("line-height", 48px)
+        +rem("margin", 16px 0 24px 0)
+      p
+        margin: 0
+        line-height: 1.0
+        &.entry-category
+          +rem("font-size", 14px)
+        &.entry-meta
+          +rem("font-size", 12px)
+    .entry-content
+      +rem("margin", 64px 0)

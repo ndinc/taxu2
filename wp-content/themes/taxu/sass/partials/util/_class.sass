@@ -1,0 +1,78 @@
+.hide
+  display: none !important
+
+.clearfix
+  +clearfix
+
+.mcfix
+  +mcfix
+
+
+.is-visible
+  @extend %is-visible
+
+.is-hidden
+  @extend %is-hidden
+
+.bgimage
+  background: no-repeat center / cover
+
+
++respond-to(narrow)
+  .is-desktop
+    display: none !important
+
++respond-to(wide)
+  .is-mobile
+    display: none !important
+
+
++respond-to("!narrow")
+  .is-narrow
+    display: none !important
+
++respond-to("!wide")
+  .is-wide
+    display: none !important
+
++respond-to("!small-only")
+  .is-small-only
+    display: none !important
+
++respond-to("!medium-up")
+  .is-medium-up
+    display: none !important
+
++respond-to("!medium-only")
+  .is-medium-only
+    display: none !important
+
++respond-to("large-up")
+  .is-medium-down
+    display: none !important
+
++respond-to("!large-only")
+  .is-large-only
+    display: none !important
+
++respond-to("!large-up")
+  .is-large-up
+    display: none !important
+
++respond-to("xlarge-up")
+  .is-large-down
+    display: none !important
+
++respond-to("!xlarge-up")
+  .is-xlarge-up
+    display: none !important
+
++respond-to("!xlarge-only")
+  .is-xlarge-only
+    display: none !important
+
++respond-to("!xxlarge-up")
+  .is-xxlarge-up
+    display: none !important
+  .is-xxlarge-only
+    display: none !important

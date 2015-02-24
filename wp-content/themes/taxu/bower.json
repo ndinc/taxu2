@@ -1,0 +1,71 @@
+{
+	"name": "blogndinc",
+	"version": "0.0.1",
+	"ignore": [
+		"*.md",
+		"*.json",
+		"node_modules",
+		"components"
+	],
+	"dependencies": {
+		"devicejs": null,
+		"imagesloaded": null,
+		"foundation": "zurb/bower-foundation",
+		"fluidbox": null,
+		"REM-unit-polyfill": null,
+		"svg-loaders": null,
+		"jquery": "1.11.0"
+	},
+	"devDependencies": {},
+	"exportsOverride": {
+		"jquery": {
+			"javascripts": "**/dist/jquery.js"
+		},
+		"eventEmitter": {
+			"javascripts": "EventEmitter.js"
+		},
+		"eventie": {
+			"javascripts": "eventie.js"
+		},
+		"imagesloaded": {
+			"javascripts": "imagesloaded.js"
+		},
+		"devicejs": {
+			"javascripts": "**/device.js"
+		},
+		"fluidbox": {
+		  "javascripts": "**/jquery.fluidbox.js",
+		  "stylesheets": "css/fluidbox.css"
+		},
+		"svg-loaders": {
+			"svg": [
+				"**/puff.svg"
+			]
+		},
+		"foundation": {
+			"javascripts": [
+				"js/foundation.js"
+			],
+			"sass": [
+				"scss/"
+			]
+		},
+		"fastclick": {
+			"javascripts": [
+				"lib/fastclick.js"
+			]
+		},
+		"jquery.cookie": {
+			"javascripts": "jquery.cookie.js"
+		},
+		"jquery-placeholder": {
+			"javascripts": "jquery.placeholder"
+		},
+		"REM-unit-polyfill": {
+			"ie": "**/rem.min.js"
+		}
+	},
+	"resolutions": {
+		"jquery": "~1.11.x"
+	}
+}

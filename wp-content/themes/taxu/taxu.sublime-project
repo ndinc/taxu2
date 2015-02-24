@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/nkhrhr/Dropbox/MyFiles/Work/ActiveProject/Taxu/Site/taxu2/wp-content/themes/taxu",
+
+			"folder_exclude_patterns": [".sass-cache", "coffee", "zip", "pdf", "stylesheets", "styleguide"],
+			"file_exclude_patterns": ["*.css", "screenshot.png", "*.codekit", ".bowerrc", "*.sublime-project", "*.sublime-workspace", "*.coffee", "vendor.js", "*.min.js"]
+
+
+		}
+
+	]
+}

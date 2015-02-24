@@ -1,0 +1,130 @@
+body
+  font-family: 'Yu Gothic Std-TT R', sans-serif
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  text-rendering: auto
+  color: #444
+  @if $support-ie8
+    text-align: center
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  color: #333
+  font-family: 'Yu Gothic Std-TT B', sans-serif
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  text-rendering: auto
+
+h1
+  +rem(font-size, 26px)
+  line-height: 1.8em
+  font-weight: bold
+  a
+    +link-colors(#333, #444)
+    text-decoration: none
+  +respond-to("medium-up")
+    +rem(font-size, 28px)
+    line-height: 2em
+a
+  +link-colors(#444, #999)
+  text-decoration: underline
+
+p
+  line-height: 2em
+  font-weight: 300
+  +rem(font-size, 16px)
+
+ul
+  list-style: none
+
+li
+  line-height: 1.7em
+  +rem(font-size, 15px)
+
+#container
+  @if $support-ie8
+    text-align: left
+
+
+
+body
+  margin: 0
+  // *
+  //   background: #f00
+
+  #share
+    text-align: center
+  #cover
+    background-image: url(../images/photo.jpg)
+    background-size: cover
+    min-height: 500px
+    background-position: center center
+    img
+      width: 160px
+      float: right
+      margin: 40px
+    h1
+      background: #fff
+      display: inline
+  .wp-content
+    margin: 40px 0
+  #cta
+    padding: 80px 0
+    background: #f3f3f3
+    text-align: center
+    #logo
+      text-align: center
+      color: #999
+      font-size: 9px
+      padding: 80px 0
+      img
+        width: 100px
+        margin-bottom: 20px
+    h2
+      font-size: 24px
+      font-weight: bold
+    p
+    #buttons
+      padding-bottom: 80px
+      a
+        display: inline-block
+        padding: 20px
+        background: #333
+        background: #ef8201
+        color: #fff
+        font-weight: bold
+        text-decoration: none
+        border-radius: 100px
+    #share
+      padding: 80px 0
+    h3
+      font-size: 16px
+      font-weight: bold
+    ul
+      img
+        height: 136px
+        margin-bottom: 12px
+      p
+        font-size: 13px
+
+  // <div id="cover">
+  //   <img src="<?php sitepath('template_url'); ?>/images/logo-white.png" alt="★★★★">
+  //   <h1>脱税や申告漏れは？ 犯罪？逮捕？</h1>
+  // </div>
+
+
+
+
+//   <div id="cta">
+//     <div id="logo"><img src="<?php sitepath('template_url'); ?>/images/logo.png" alt="★★★★"></div>
+//     <h2>クリエイティブなコトにフォーカスしよう！</h2>
+//     <p>クリエイティブな仕事をするアナタが、<br />悩ましいお金のコト、事務手続きに時間を割く必要はありません。</p>
+//     <p>確定申告に必要な、コトすべてを、税理士事務所に依頼して、<br />心置きなくクリエイティブなコトにフォーカスして下さい！</p>
+//     <p id="buttons"><a href="#">確定申告は、サクッと！</a></p>
+//     <p id="share"><img src="<?php sitepath('template_url'); ?>/images/fb.png" alt="★★★★"> <img src="<?php sitepath('template_url'); ?>/images/tw.png" alt="★★★★"></p>
+//   </div>
+// </div>
